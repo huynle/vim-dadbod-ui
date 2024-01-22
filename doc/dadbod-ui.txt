@@ -367,13 +367,13 @@ ic
 <Plug>(DBUI_GotoFirstSibling)
 		Go to first sibling in current context.
 
-		By default, mapped to `<C-k>`.
+		By default, mapped to `<M-k>`.
 
 					      *<Plug>(DBUI_GotoLastSibling)*
 <Plug>(DBUI_GotoLastSibling)
 		Go to last sibling in current context.
 
-		By default, mapped to `<C-j>`.
+		By default, mapped to `<M-j>`.
 
 					      *<Plug>(DBUI_GotoPrevSibling)*
 <Plug>(DBUI_GotoPrevSibling)

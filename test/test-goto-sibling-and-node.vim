@@ -17,23 +17,23 @@ function! s:suite.should_jump_to_first_last_sibling() abort
   :DBUI
   norm oj
   call s:expect(line('.')).to_equal(2)
-  exe "norm \<C-j>"
+  exe "norm \<M-j>"
   call s:expect(line('.')).to_equal(4)
-  exe "norm \<C-k>"
+  exe "norm \<M-k>"
   call s:expect(line('.')).to_equal(2)
   norm 2jojo
   call s:expect(line('.')).to_equal(5)
-  exe "norm \<C-j>"
+  exe "norm \<M-j>"
   call s:expect(line('.')).to_equal(12)
-  exe "norm \<C-k>"
+  exe "norm \<M-k>"
   call s:expect(line('.')).to_equal(5)
   norm j
   call s:expect(line('.')).to_equal(6)
-  exe "norm \<C-j>"
+  exe "norm \<M-j>"
   call s:expect(line('.')).to_equal(11)
-  exe "norm \<C-k>"
+  exe "norm \<M-k>"
   call s:expect(line('.')).to_equal(6)
-  exe "norm \<C-j>"
+  exe "norm \<M-j>"
   call s:expect(line('.')).to_equal(11)
 endfunction
 
@@ -74,10 +74,10 @@ function! s:suite.should_jump_to_last_line()
   call s:expect(line('.')).to_equal(13)
   norm oj
   call s:expect(line('.')).to_equal(14)
-  exe "norm \<C-j>"
+  exe "norm \<M-j>"
   call s:expect(line('.')).to_equal(16)
-  exe "norm \<C-k>"
+  exe "norm \<M-k>"
   call s:expect(line('.')).to_equal(14)
-  exe "norm \<C-j>"
+  exe "norm \<M-j>"
   call s:expect(line('.')).to_equal(16)
 endfunction

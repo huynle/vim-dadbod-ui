@@ -387,7 +387,7 @@ function! s:drawer.render_help() abort
     call self.add('" H - Toggle database details', 'noaction', 'help', '', '', 0)
     call self.add('" r - Rename/Edit buffer/connection/saved query', 'noaction', 'help', '', '', 0)
     call self.add('" q - Close drawer', 'noaction', 'help', '', '', 0)
-    call self.add('" <C-j>/<C-k> - Go to last/first sibling', 'noaction', 'help', '', '', 0)
+    call self.add('" <M-j>/<M-k> - Go to last/first sibling', 'noaction', 'help', '', '', 0)
     call self.add('" K/J - Go to prev/next sibling', 'noaction', 'help', '', '', 0)
     call self.add('" <C-p>/<C-n> - Go to parent/child node', 'noaction', 'help', '', '', 0)
     call self.add('" <Leader>W - (sql) Save currently opened query', 'noaction', 'help', '', '', 0)
